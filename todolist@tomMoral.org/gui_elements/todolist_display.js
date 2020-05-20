@@ -155,7 +155,7 @@ var TodoList = class TodoList extends GObject.Object {
     }
     _set_text(){
         // Update status button
-        this.buttonText.set_text("ToDo ("+this.n_tasks+")");
+        this.buttonText.set_text("!");
     }
     _clear(){
         for (var section of this.section_items){
